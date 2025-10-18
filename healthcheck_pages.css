@@ -1,0 +1,51 @@
+:root {
+  --warm-bg: #faf9f6;
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 0.5rem;
+  border: 1px solid #bbf7d0;
+}
+
+.message-bubble {
+  max-width: 80%;
+  border-radius: 1rem;
+  padding: 1rem;
+  word-wrap: break-word;
+}
+
+.message-bubble.user {
+  background-color: #16a34a;
+  color: white;
+  border: 1px solid #16a34a;
+  align-self: flex-end;
+}
+
+.message-bubble.assistant {
+  background-color: white;
+  border: 1px solid #bbf7d0;
+}
+
+.message-avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-avatar.user {
+  background-color: #e5e7eb;
+  color: #4b5563;
+}
+
+.message-avatar.assistant {
+  background: linear-gradient(to bottom right, #22c55e, #059669);
+  color: white;
+}
