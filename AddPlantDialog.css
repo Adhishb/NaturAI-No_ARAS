@@ -1,0 +1,27 @@
+/* AddPlantDialog.css */
+
+/* Plant image preview */
+.plant-image-preview {
+  width: 100%;
+  height: 8rem; /* 32 x 0.25rem = 8rem */
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+/* Button spinner (if needed for non-Tailwind setups) */
+.button-spinner {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Dialog content scroll */
+.dialog-scroll {
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+/* Form spacing */
+.form-spacing > * + * {
+  margin-top: 1rem;
+}
