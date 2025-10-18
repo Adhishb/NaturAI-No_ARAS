@@ -1,0 +1,48 @@
+/* careschedule_entities.css */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8fcfb;
+  color: #1b4332;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2d6a4f;
+  margin-bottom: 20px;
+}
+
+#careschedule-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careschedule-schema {
+  background: #ffffff;
+  border: 2px solid #74c69d;
+  border-radius: 12px;
+  padding: 20px;
+  width: 80%;
+  max-width: 700px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.careschedule-schema h2 {
+  color: #1b4332;
+  text-align: center;
+}
+
+.careschedule-schema ul {
+  list-style: none;
+  padding: 0;
+}
+
+.careschedule-schema li {
+  background: #e0f2f1;
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
