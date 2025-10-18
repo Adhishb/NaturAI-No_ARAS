@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Garden</title>
+    <link rel="stylesheet" href="mygarden_pages.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="hero">
+        <div class="hero-text">
+          <h1 id="page-title">My Garden</h1>
+          <p id="welcome-message">Welcome!</p>
+        </div>
+        <button id="add-plant-btn" class="btn add-btn">
+          ➕ Add Plant
+        </button>
+      </header>
+
+      <section class="stats-grid">
+        <div class="stat-card">
+          <h3>Total Plants</h3>
+          <p id="total-plants">0</p>
+        </div>
+        <div class="stat-card">
+          <h3>Healthy Plants</h3>
+          <p id="healthy-plants">0</p>
+        </div>
+        <div class="stat-card">
+          <h3>Need Watering</h3>
+          <p id="needing-water">0</p>
+        </div>
+        <div class="stat-card">
+          <h3>Ready to Harvest</h3>
+          <p id="ready-harvest">0</p>
+        </div>
+      </section>
+
+      <main class="main-content">
+        <section id="plants-section">
+          <h2>Your Plants</h2>
+          <div id="plants-grid" class="plants-grid">
+            <!-- Plant cards dynamically inserted here -->
+          </div>
+        </section>
+
+        <aside>
+          <h2>Upcoming Tasks</h2>
+          <ul id="tasks-list"></ul>
+        </aside>
+      </main>
+
+      <dialog id="add-plant-dialog">
+        <form method="dialog">
+          <h3>Add a New Plant</h3>
+          <input type="text" id="plant-name" placeholder="Plant Name" required />
+          <button type="submit" class="btn">Add Plant</button>
+          <button id="close-dialog" class="btn cancel">Cancel</button>
+        </form>
+      </dialog>
+    </div>
+
+    <script src="mygarden_pages.js"></script>
+  </body>
+</html>
