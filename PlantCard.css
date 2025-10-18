@@ -1,0 +1,59 @@
+/* PlantCard.css */
+
+/* Health status badge styles (in case not using Tailwind) */
+.badge-excellent {
+  background-color: #d1fae5;
+  color: #065f46;
+  border: 1px solid #bbf7d0;
+}
+
+.badge-good {
+  background-color: #dbeafe;
+  color: #1e40af;
+  border: 1px solid #bfdbfe;
+}
+
+.badge-fair {
+  background-color: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+
+.badge-poor {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+/* Image fallback (Sun icon center) */
+.plant-image-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d1fae5;
+  height: 12rem;
+}
+
+/* Action button base styles */
+.button-action {
+  width: 100%;
+  background-color: #3b82f6;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.button-action:hover {
+  background-color: #2563eb;
+}
+
+/* Card container */
+.card-hoverable {
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid #d1fae5;
+  transition: box-shadow 0.2s;
+}
+
+.card-hoverable:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
