@@ -1,0 +1,57 @@
+/* GardenStats.css */
+
+/* Example gradients if Tailwind is not used directly */
+.bg-gradient-blue {
+  background: linear-gradient(to bottom right, #3b82f6, #2563eb);
+}
+
+.bg-gradient-green {
+  background: linear-gradient(to bottom right, #10b981, #059669);
+}
+
+.bg-gradient-cyan {
+  background: linear-gradient(to bottom right, #06b6d4, #0891b2);
+}
+
+.bg-gradient-orange {
+  background: linear-gradient(to bottom right, #f97316, #ea580c);
+}
+
+.bg-gradient-purple {
+  background: linear-gradient(to bottom right, #8b5cf6, #7c3aed);
+}
+
+/* Basic structure if not using Tailwind */
+.garden-stats-card {
+  background-color: white;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border: 1px solid #d1fae5;
+  transition: box-shadow 0.2s;
+}
+
+.garden-stats-card:hover {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+.garden-stats-title {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 0.25rem;
+}
+
+.garden-stats-value {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+.icon-container {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
