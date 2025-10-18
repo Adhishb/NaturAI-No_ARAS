@@ -1,0 +1,28 @@
+<div class="min-h-screen p-4 md:p-8" style="background-color: var(--warm-bg)">
+  <div class="max-w-6xl mx-auto">
+    <div class="flex justify-between items-start md:items-center mb-6 flex-col md:flex-row gap-4">
+      <div>
+        <h1 class="text-3xl font-bold text-gray-900 mb-2">Care Calendar</h1>
+        <p class="text-gray-600 plant-summary"></p>
+      </div>
+      <div class="flex gap-2 button-container"></div>
+    </div>
+
+    <div class="alert-container"></div>
+
+    <div class="schedule-section hidden">
+      <div class="bg-white rounded-2xl p-6 shadow-sm border border-green-100 mb-6">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+          <div>
+            <h3 class="font-semibold text-lg mb-1">Your Garden Plants</h3>
+            <div class="flex flex-wrap gap-2 plant-tags"></div>
+          </div>
+          <div class="tabs-container"></div>
+        </div>
+      </div>
+      <div id="task-calendar"></div>
+    </div>
+
+    <div id="add-task-dialog"></div>
+  </div>
+</div>
