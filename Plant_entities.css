@@ -1,0 +1,48 @@
+/* Plant_entities.css */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f6fff8;
+  color: #2e2e2e;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2b9348;
+  margin-bottom: 20px;
+}
+
+#plant-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plant-schema {
+  background: #ffffff;
+  border: 2px solid #90be6d;
+  border-radius: 12px;
+  padding: 20px;
+  width: 80%;
+  max-width: 700px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.plant-schema h2 {
+  color: #007f5f;
+  text-align: center;
+}
+
+.plant-schema ul {
+  list-style: none;
+  padding: 0;
+}
+
+.plant-schema li {
+  background: #d8f3dc;
+  margin: 6px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
