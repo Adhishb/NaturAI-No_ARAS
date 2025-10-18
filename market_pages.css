@@ -1,0 +1,45 @@
+/* market_pages.css */
+
+:root {
+  --warm-bg: #fdfcf7;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-green-600 {
+  background-color: #16a34a;
+}
+
+.bg-green-600:hover {
+  background-color: #15803d;
+}
+
+.bg-blue-50 {
+  background-color: #eff6ff;
+}
+
+.border-blue-200 {
+  border-color: #bfdbfe;
+}
+
+.text-blue-800 {
+  color: #1e40af;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
