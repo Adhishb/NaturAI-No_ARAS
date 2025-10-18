@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plant Finder</title>
+    <link rel="stylesheet" href="plantfinder_pages.css" />
+  </head>
+  <body>
+    <div class="page">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-icon">🔍</div>
+        <h1>Find Your Perfect Plant</h1>
+        <p>
+          Discover plants that match your space, experience, and preferences.
+        </p>
+        <button id="quiz-btn" class="btn btn-gradient">
+          ✨ Take Plant Quiz
+        </button>
+      </section>
+
+      <!-- Search + Filter Section -->
+      <section class="search-section">
+        <div class="search-row">
+          <div class="search-input">
+            <input
+              type="text"
+              id="search-box"
+              placeholder="Search plants by name or description..."
+            />
+          </div>
+          <button id="filter-btn" class="btn btn-outline">⚙️ Filters</button>
+        </div>
+
+        <!-- Tabs -->
+        <div class="tabs">
+          <button class="tab active" data-category="all">All</button>
+          <button class="tab" data-category="fruit">Fruit</button>
+          <button class="tab" data-category="flower">Flower</button>
+          <button class="tab" data-category="vegetable">Vegetable</button>
+          <button class="tab" data-category="herb">Herb</button>
+          <button class="tab" data-category="succulent">Succulent</button>
+          <button class="tab" data-category="tree">Tree</button>
+          <button class="tab" data-category="shrub">Shrub
