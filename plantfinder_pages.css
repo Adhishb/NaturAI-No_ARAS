@@ -1,0 +1,160 @@
+:root {
+  --green: #16a34a;
+  --green-light: #86efac;
+  --emerald: #059669;
+  --gray: #6b7280;
+  --bg: #f0fdf4;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--bg);
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero-icon {
+  background: #dcfce7;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 20px;
+  margin: auto;
+  font-size: 2rem;
+  color: var(--green);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0 0.5rem;
+  color: #111827;
+}
+
+.hero p {
+  color: var(--gray);
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+}
+
+.btn-outline {
+  border: 1px solid #d1d5db;
+  background: white;
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, var(--green), var(--emerald));
+  color: white;
+  border: none;
+}
+
+.btn-gradient:hover {
+  filter: brightness(1.05);
+}
+
+.search-section {
+  background: white;
+  border: 1px solid #d1fae5;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.search-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.search-input input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.tabs {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tab {
+  background: #f3f4f6;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.tab.active {
+  background: var(--green);
+  color: white;
+}
+
+.results {
+  padding: 1rem 0;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.plant-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.plant-card:hover {
+  transform: scale(1.02);
+}
+
+.dialog {
+  border: none;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.dialog select,
+.dialog label {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.cancel {
+  background: #f3f4f6;
+}
+
